@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # Trigger on push to the main branch
+      - dependabotchanges
     paths:
       - 'src/**/*.py'
       - 'src/requirements*.txt'
